@@ -7,6 +7,7 @@ const route = Router();
 
 route.get('/', (req, res) => {
     res.send('Hola mundo desde el backend...');
+    console.log("Hola desde Mauricio")
 })
 
 // Configurar los routers
